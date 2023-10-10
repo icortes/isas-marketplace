@@ -70,7 +70,7 @@
               <form>
                 <section class="row">
                   <!-- User Name -->
-                  <div class=" col-md-6">
+                  <div class="col-md-6">
                     <label for="userName" class="form-label">User Name</label>
                     <div class="input-group has-validation">
                       <span class="input-group-text">@</span>
@@ -87,7 +87,9 @@
                   </div>
                   <!-- Email -->
                   <div class="col-md-6">
-                    <label for="emailAddress" class="form-label">Email Address</label>
+                    <label for="emailAddress" class="form-label"
+                      >Email Address</label
+                    >
                     <input
                       type="email"
                       id="emailAddress"
@@ -97,7 +99,33 @@
                     />
                   </div>
                 </section>
-                <!--  -->
+
+                <!-- Passwords -->
+                <section class="row mt-3">
+                  <div class="col-md-6">
+                    <label for="password" class="form-label">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      required
+                      minlength="6"
+                      maxlength="18"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="retypePassword" class="form-label">Retype Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="retypePassword"
+                      required
+                      minlength="6"
+                      maxlength="18"
+                    />
+                  </div>
+                </section>
+
               </form>
             </div>
           </div>
