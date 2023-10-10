@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Nabla&display=swap');
 
+body {
+  font-family: "Lato";
+}
+
 #jumbotron {
   background-image: url("/images/background/shoppingpatern.jpg");
   background-position: center;

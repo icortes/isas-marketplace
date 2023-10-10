@@ -38,10 +38,15 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link" href="/">Home</a>
               <a class="nav-link" href="/products.html">Products</a>
               <a class="nav-link" href="/checkout.html">Checkout</a>
-              <a class="nav-link" href="/pages/registration.html">Sign Up</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/pages/registration.html"
+                >Sign Up</a
+              >
               <a class="nav-link" href="/login.html">Sign In</a>
             </div>
           </div>
@@ -50,8 +55,54 @@
     </header>
 
     <!-- Content -->
-    <main class="container-md pt-3">
-      
+    <main class="container-md py-3 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-8 col-xl-6">
+          <div class="card rounded-3">
+            <img
+              src="/images/banners/shopping-bag.jpg"
+              class="w-100"
+              alt="Photo of woman's arm holding shoping bags"
+            />
+            <div class="card-body p-4">
+              <h3 class="mb-4 pb-2">Registration</h3>
+
+              <form>
+                <section class="row">
+                  <!-- User Name -->
+                  <div class=" col-md-6">
+                    <label for="userName" class="form-label">User Name</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text">@</span>
+                      <input
+                        type="text"
+                        id="userName"
+                        class="form-control form-control-lg"
+                        placeholder=""
+                        required
+                        minlength="3"
+                        maxlength="16"
+                      />
+                    </div>
+                  </div>
+                  <!-- Email -->
+                  <div class="col-md-6">
+                    <label for="emailAddress" class="form-label">Email Address</label>
+                    <input
+                      type="email"
+                      id="emailAddress"
+                      class="form-control form-control-lg"
+                      placeholder="your@email.com"
+                      required
+                    />
+                  </div>
+                </section>
+                <!--  -->
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!-- Footer -->
