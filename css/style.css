@@ -1,1 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Nabla&display=swap');
+
+#jumbotron {
+  background-image: url("/images/background/shoppingpatern.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Nabla";
+  text-shadow: 3px 3px 9px #000000;
+}
