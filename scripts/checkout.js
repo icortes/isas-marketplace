@@ -9,7 +9,7 @@ function addToCountrySelect() {
       // for each country
       for (let i = 0; i < data.length; i++) {
         //add option element to select element
-        countrySelect.appendChild(makeOptionElement(data[i].name));
+        countrySelect.appendChild(makeOptionElement(data[i].name, data[i].code));
       }
     })
   );
