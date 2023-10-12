@@ -24,22 +24,21 @@ The purpose of this project is to provide a platform for customers to browse and
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://isas-marketplace.vercel.app/)
 
 
 ## Authors
 
-* **YOUR NAME** 
+* **Isaac Cortes Hernandez** 
 
-- [Link to Portfolio Site](#)
-- [Link to Github](https://github.com/)
-- [Link to LinkedIn](https://www.linkedin.com/)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+- [Link to Portfolio Site](https://portfolio.isaaccortes.com)
+- [Link to Github](https://github.com/icortes)
+- [Link to LinkedIn](https://www.linkedin.com/cortes-isaac)
 
 ## License
 
